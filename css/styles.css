@@ -1,0 +1,214 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 0;
+  margin-left: 20px;
+}
+
+hr {
+  width: 15%;
+  position: absolute;
+  top: 170px;
+  left: 372px;
+  color: #fff;
+}
+.i-tab {
+  position: absolute;
+  top: 20px;
+  right: 75px;
+
+}
+i{
+   background-color: #000;
+  border-radius: 100%;
+  padding: 7px;
+  margin: 5px;
+  color: #fff;
+}
+.fa-instagram{
+  padding: 4px;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.title {
+  float: left;
+  margin: 10px 0 0 10px;
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title2 {
+  margin: 10px 0 0 10px;
+  font-size: 70px;
+  position: absolute;
+  top: 80px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sub-title {
+  float: right;
+  position: absolute;
+  left: 350px;
+  width: 250px;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  border-left: solid 2px #fff;
+  padding-left: 19px;
+  background-color: #000;
+}
+
+.border-line {
+  height: 372px;
+  width: 556px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 239px;
+  left: 17px;
+}
+
+.grid-container.outside {
+  display: grid;
+  grid-template-columns: 238px 224px;
+  margin: 100px;
+  margin-top: 200px;
+  text-align: center;
+  grid-column-gap: 50px;
+  border: 2px solid #fff;
+  padding: 31px;
+  padding-left: 12px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-top: 240px;
+  margin-left: 17px;
+  margin-bottom: 20px;
+}
+
+.grid-container.inside {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px;
+  background-color: #A9A9A9;
+  height: 250px;
+}
+
+.grid-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.blue-tick {
+  width: 25px;
+  position: absolute;
+  top: 130px;
+  left: 266px;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 23px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.one img {
+  height: 100px;
+  width: 80px;
+  margin-top: 7px;
+  margin-left: 12px;
+}
+
+.two img {
+  height: 120px;
+  width: 110px;
+  margin-left: 8px;
+  margin-top: 7px;
+}
+
+.three img {
+  height: 120px;
+  width: 80px;
+  margin-top: 16px;
+  margin-left: 9px;
+}
+
+.four img {
+  width: 110px;
+  margin-top: 36px;
+  margin-left: 10px;
+}
+
+.five img {
+  height: 120px;
+  margin-top: 11px;
+  margin-left: 15px;
+}
+
+.six img {
+  width: 80px;
+  margin-top: 11px;
+  margin-left: 28px;
+}
+
+.seven img {
+  margin-top: 36px;
+  margin-left: 15px;
+}
+
+.eight img {
+  height: 120px;
+  width: 80px;
+  margin-left: 28px;
+  margin-top: 16px;
+}
+.footer {
+  position: absolute;
+  top: 660px;
+  left: 300px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.footer span{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.span2{
+  border-left: 1px solid #fff;
+}
+.span3{
+  border-left: 1px solid #fff;
+}
+.span4{
+  border-left: 1px solid #fff;
+}
+.span5{
+  border-left: 1px solid #fff;
+}
+#hadid {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  z-index: -1;
+}
+@media screen (max width:700px) {
+  .sub-title{
+    position: static;
+  }
+  .hadid img{
+    position: static;
+    float: none;
+    content: attr(src,gigi-hadid.jpg);
+  }
+  .left
+  {
+    float: none;
+  }
+  body{
+    margin: 10% 17%;
+  }
+}
